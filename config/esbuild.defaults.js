@@ -278,6 +278,7 @@ module.exports = (outputFolder, esbuildOptions) => {
       ".png": "file",
       ".gif": "file",
       ".svg": "file",
+      ".otf": "file",
       ".woff": "file",
       ".woff2": "file",
       ".ttf": "file",

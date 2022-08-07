@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "TabletGothic";
+  src: url("/fonts/tablet-gothic/TabletGothic.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TabletGothic";
+  src: url("/fonts/tablet-gothic/TabletGothic-Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TabletGothic";
+  src: url("/fonts/tablet-gothic/TabletGothic-ExtraBold.otf") format("otf");
+  font-weight: extrabold;
+  font-style: normal;
+}

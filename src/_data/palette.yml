@@ -1,0 +1,17 @@
+- name: white
+  hex: 'FFFFFF'
+
+- name: neutral
+  hex: 'F4F3EF'
+
+- name: pink
+  hex: 'F9E5E5'
+
+- name: yellow
+  hex: 'F6E548'
+
+- name: red
+  hex: 'EA5C42'
+
+- name: black
+  hex: '000000'

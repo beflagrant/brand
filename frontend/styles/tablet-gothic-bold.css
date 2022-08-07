@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Tablet Gothic';
+  src: url('TabletGothic-Bold.eot');
+  src: url('TabletGothic-Bold.eot?#iefix') format('embedded-opentype'),
+       url('TabletGothic-Bold.svg#TabletGothic-Bold') format('svg'),
+       url('TabletGothic-Bold.ttf') format('truetype'),
+       url('TabletGothic-Bold.woff') format('woff'),
+       url('TabletGothic-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
