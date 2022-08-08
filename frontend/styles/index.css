@@ -24,16 +24,12 @@
 body {
   background: var(--body-background);
   color: var(--body-color);
-  margin: 0 8px;
-  font-family: "Tablet Gothic", sans-serif;
-  font-size: 100%;
-  line-height: 1.5;
 }
 
 a {
   color: var(--action-color);
   text-decoration: underline;
-  text-decoration-color: #ffb088;
+  text-decoration-color: var(--yellow);
 }
 
 h1 {
