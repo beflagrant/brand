@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 
 The primary font is **Tablet Gothic**, in regular, bold, and extra bold weights.

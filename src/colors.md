@@ -1,12 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-
-layout: default
 ---
 
-<!-- For Adobe, Sketch, and Mac applications
-
-[Download color palettes]({{ site.baseurl }}/assets/dist/18F_Color_Palette.zip){:.usa-button } -->
 <div class="bg-white"></div>
 <div class="bg-neutral"></div>
 <div class="bg-pink"></div>

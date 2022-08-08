@@ -32,3 +32,8 @@ template_engine: erb
 # timezone: America/Chicago
 # pagination:
 #   enabled: true
+
+defaults:
+  - values:
+      layout: default
+      current_page: 'unlikely-value'

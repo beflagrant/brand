@@ -1,14 +1,14 @@
-<header>
+<header class="mx-auto my-8">
   <img src="<%= relative_url '/images/logo.svg' %>" alt="FLAGRANT" class="w-16 mr-8" />
   <h1 class="inline align-middle">Visual Identity</h1>
 </header>
 <hr class="m-0">
 <nav>
   <ul class="-ml-4">
-    <li class="px-4 pt-2 hover:bg-neutral pb-2"><a href="<%= relative_url '/' %>" class="pb-2 border-b-4 border-yellow">Introduction</a></li>
-    <li class="px-4 pt-2  border-transparent hover:bg-neutral"><a href="<%= relative_url '/logo' %>">Logo</a></li>
-    <li class="px-4 pt-2  border-transparent hover:bg-neutral"><a href="<%= relative_url '/colors' %>">Color palette</a></li>
-    <li class="px-4 pt-2  border-transparent hover:bg-neutral"><a href="<%= relative_url '/typography' %>">Typography</a></li>
+    <li class="px-4 pt-2 hover:bg-neutral pb-2"><a href="<%= relative_url '/' %>" class="pb-2 <%= 'border-b-4 border-yellow' if !!highlight?('index') %>">Introduction</a></li>
+    <li class="px-4 pt-2 hover:bg-neutral"><a href="<%= relative_url '/logo' %>" class="pb-2 <%= 'border-b-4 border-yellow' if !!highlight?('logo') %>">Logo</a></li>
+    <li class="px-4 pt-2 hover:bg-neutral"><a href="<%= relative_url '/colors' %>" class="pb-2 <%= 'border-b-4 border-yellow' if !!highlight?('colors') %>">Color palette</a></li>
+    <li class="px-4 pt-2 hover:bg-neutral"><a href="<%= relative_url '/typography' %>" class="pb-2 <%= 'border-b-4 border-yellow' if !!highlight?('typography') %>">Typography</a></li>
   </ul>
 </nav>
 <hr class="m-0 pb-4">
