@@ -6,7 +6,7 @@
   <body class="<%= resource.data.layout %> <%= resource.data.page_class %> m-0 font-tablet-gothic">
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
-    <main>
+    <main class="px-4 lg:px-0">
       <%= yield %>
     </main>
 
