@@ -4,7 +4,7 @@
 The primary font is **Tablet Gothic**, in regular, bold, and extra bold weights.
 
 
-<div class="flex flex-row">
+<div class="flex flex-row flex-wrap">
   <div class="font-tablet-gothic mr-8 mb-8">
     <h4 class="mb-4">Tablet Gothic, Regular</h4>
     <span class="text-7xl"> Aa </span>
@@ -60,7 +60,7 @@ The primary font is **Tablet Gothic**, in regular, bold, and extra bold weights.
 
 <span class="font-roboto-mono">**Roboto Mono**</span>, is used in small text headers and brief captions.
 
-<div class="flex flex-row">
+<div class="flex flex-row flex-wrap">
   <div class="font-roboto-mono">
     <h4 class="mb-4">Roboto Mono, Regular</h4>
     <span class="text-7xl"> Aa </span>
