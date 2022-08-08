@@ -8,9 +8,9 @@
 <div class="bg-red"></div>
 <div class="bg-black"></div>
 
-<div class="flex flex-row mb-8">
+<div class="flex flex-row flex-wrap mb-8">
   <% site.data.palette.each do |color| %>
-    <div>
+    <div class="flex flex-col">
       <div class="w-32 h-32 bg-<%= color.name %> border-neutral border-2 mr-4 mb-4"></div>
       <div class="font-bold"><%= color.name.titleize %></div>
       <div>#<%= color.hex %></div>
